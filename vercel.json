@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "ignoreCommand": "echo 'skipping ignore'",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
